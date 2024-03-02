@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,
+			initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" class="css" />
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+p{text-align: center;}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<h1 style="color:White;">Happy Stay In Paradise</h1>
+<a href='https://g.co/kgs/M3Pdrcr/'>
+<p><button class="button button1">Netbanking</button>
+<button class="button button2">Apply Coupons</button></p>
+<a href='Paradise.html'>Back Home Page</a>
+
+</body>
+</html>
+<div class="card-details">
+<p>Pay using Credit or Debit card</p>
+
+<form>
+<p><label for="cardNumber">Card Number:</label>
+<input type="text" id="cardNumber" name="cardNumber"pattern="[0-9]{12}"title="Please enter a 12-digit number"required></p></form>
+<script>
+document.getElementById("cardNumber").addEventListener("input", function() {
+if (this.value.length > 12) {
+      this.value = this.value.slice(0, 12);
+    }
+  });
+</script>
+</div>
+<div class="date-number">
+<p><label> Expiry Date </label>
+<input type="text"
+class="date-number-field"
+placeholder="DD-MM-YY" />
+</div>
+<div class="cvv-number">
+<p><label> CVV number </label>
+<input type="text"
+class="cvv-number-field"
+placeholder="xxx" />
+</p>
+</div>
+<div class="nameholder-number">
+<p><label> Card Holder name </label>
+				
+<input type="text"
+					
+class="card-name-field"
+placeholder="Enter your Name" 
+<p><button type="button" onclick="alert('You pressed the button!')" >
+Submit</p></button>
+</p>
+</p>
+</div>
+<style>
+body {
+  background-image:url('https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-superJumbo.jpg');
+}
+</style>
+</body>
+</html>
